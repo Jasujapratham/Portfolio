@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pratham Jasuja — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Pratham Jasuja — software engineer. Projects, skills, and contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-orbit" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="#top" aria-label="Home">
+          <span>Pratham</span><span>Jasuja</span>
+        </a>
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#story">Story</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-cta">
+          <a class="btn ghost" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <a class="btn solid" href="#contact">Let’s talk</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Computer Science Undergraduate · Full-Stack Developer</p>
+          <h1>
+            I build practical web products that help students and teams move faster.
+          </h1>
+          <p class="hero-sub">
+            I’m Pratham Jasuja, a B.Tech CSE student at KIET Group of Institutions. I enjoy
+            building web apps with clear UX, reliable logic, and measurable impact.
+          </p>
+          <div class="hero-actions">
+            <a class="btn solid" href="#work">See projects</a>
+            <a class="btn ghost" href="resume.pdf" target="_blank" rel="noreferrer">Download resume</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="label">Based in</span>
+              <span class="value">Ghaziabad, India</span>
+            </div>
+            <div>
+              <span class="label">Working with</span>
+              <span class="value">Campus · Clubs · Teams</span>
+            </div>
+            <div>
+              <span class="label">Focus</span>
+              <span class="value">Full-stack · Web · Problem Solving</span>
+            </div>
+            <div>
+              <span class="label">Email</span>
+              <a class="value" href="mailto:prathamjasuja75@gmail.com"
+                >prathamjasuja75@gmail.com</a
+              >
+            </div>
+            <div>
+              <span class="label">Phone</span>
+              <span class="value">+91 95685 26101</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="card-top">
+            <span class="status">Open to internships</span>
+            <span class="dot"></span>
+          </div>
+          <h2>Major project</h2>
+          <p>
+            Developing a system to track early symptoms of brain stroke and help avoid it. The
+            project also uses CT scan imaging to identify early clot formation.
+          </p>
+          <div class="tags">
+            <span>Healthcare</span>
+            <span>CT Imaging</span>
+            <span>Detection</span>
+            <span>Research</span>
+          </div>
+        </div>
+        <div class="code-window reveal" aria-hidden="true">
+          <div class="code-titlebar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="code-title">Main.java</span>
+          </div>
+          <pre class="code-block"><code>import java.util.Scanner;
+
+public class Welcome {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter your name: ");
+    String name = sc.nextLine();
+    System.out.println("Welcome, " + name + "!");
+  }
+}</code></pre>
+          <button class="btn solid code-cta" type="button">Run Program</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Summary</h2>
+          <p>
+            Motivated and enthusiastic computer science undergraduate currently pursuing a
+            B.Tech degree in Computer Science.
+          </p>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-head">
+          <h2>Selected Work</h2>
+          <p>Featured academic projects focused on student productivity and community.</p>
+        </div>
+        <div class="work-grid">
+          <article class="work-card reveal">
+            <div class="work-header">
+              <h3>UniBuddy</h3>
+              <span class="pill">Networking App</span>
+            </div>
+            <p>
+              Networking app for college students to form communities based on shared skills and
+              interests. Presented at InnoTech.
+            </p>
+            <ul class="stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Django</li>
+            </ul>
+            <a class="work-link" href="#" aria-disabled="true">Case study on request</a>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-header">
+              <h3>Attendance Management System</h3>
+              <span class="pill">Web App</span>
+            </div>
+            <p>
+              Web app that calculates required classes or allowed absences to maintain a target
+              attendance percentage.
+            </p>
+            <ul class="stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+            </ul>
+            <a class="work-link" href="#" aria-disabled="true">Live demo on request</a>
+          </article>
+          <article class="work-card reveal">
+            <div class="work-header">
+              <h3>MLSA Internship PRs</h3>
+              <span class="pill">Open Source</span>
+            </div>
+            <p>
+              Completed a 100+ hour internship with MLSA KIET, contributing multiple PRs to the
+              official GitHub repo.
+            </p>
+            <ul class="stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+            <a class="work-link" href="#" aria-disabled="true">Repo links available</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="section-head">
+          <h2>Skills & Tools</h2>
+          <p>Technical skills and tools I use to build web applications.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-block reveal">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, responsive UI, basic web development.</p>
+          </div>
+          <div class="skill-block reveal">
+            <h3>Backend</h3>
+            <p>Node.js, Python, Django, database basics.</p>
+          </div>
+          <div class="skill-block reveal">
+            <h3>Core CS</h3>
+            <p>C, Java, Python, OOPS, DBMS.</p>
+          </div>
+          <div class="skill-block reveal">
+            <h3>Workflow</h3>
+            <p>Git, GitHub, collaborative PRs, documentation.</p>
+          </div>
+        </div>
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>Problem Solving</span>
+            <span>Web Development</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>DBMS</span>
+            <span>OOPS</span>
+            <span>GitHub</span>
+            <span>APIs</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Achievements & Certificates</h2>
+          <p>Proof points from coding and campus activities.</p>
+        </div>
+        <div class="story-grid">
+          <article class="story-card reveal">
+            <h3>LeetCode</h3>
+            <p>Solved 200+ questions.</p>
+          </article>
+          <article class="story-card reveal">
+            <h3>HackerRank</h3>
+            <p>Achieved 4 stars in Java.</p>
+          </article>
+          <article class="story-card reveal">
+            <h3>InnoTech</h3>
+            <p>Attended department-level project presentation event.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="section">
+        <div class="section-head">
+          <h2>My Story</h2>
+          <p>What I focus on when working on software teams.</p>
+        </div>
+        <div class="story-grid">
+          <article class="story-card reveal">
+            <h3>User-first engineering</h3>
+            <p>
+              I aim for clean interfaces with predictable behavior and simple user flows.
+            </p>
+          </article>
+          <article class="story-card reveal">
+            <h3>Growth mindset</h3>
+            <p>
+              I keep learning through projects, coding challenges, and team contributions.
+            </p>
+          </article>
+          <article class="story-card reveal">
+            <h3>Clear communication</h3>
+            <p>
+              I share progress early, document changes, and keep teams aligned.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="section-head">
+          <h2>Experience Snapshot</h2>
+          <p>Education and recent experience.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-date">2023 — Present</span>
+            <h3>KIET Group of Institutions · B.Tech in Computer Science</h3>
+            <p>
+              CGPA: 8.4
+            </p>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-date">2022 — 2023</span>
+            <h3>Rainbow School, Saharanpur · Intermediate</h3>
+            <p>
+              Percentage: 90
+            </p>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-date">2020 — 2021</span>
+            <h3>Rainbow School, Saharanpur · High School</h3>
+            <p>
+              Percentage: 94.6
+            </p>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="timeline-date">2024</span>
+            <h3>MLSA Internship · Full-Stack Web Development</h3>
+            <p>
+              Completed 100+ hours, submitted multiple PRs to the official MLSA KIET GitHub
+              repository.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="contact-card reveal">
+          <div>
+            <h2>Let’s build something ambitious.</h2>
+            <p>
+              Reach out for internships, collaborations, or student projects.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn solid" href="mailto:prathamjasuja75@gmail.com">Email me</a>
+            <a
+              class="btn ghost"
+              href="https://linkedin.com/in/pratham-jasuja-394997298"
+              target="_blank"
+              rel="noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              class="btn ghost"
+              href="https://github.com/Jasujapratham"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Pratham Jasuja. All rights reserved.</span>
+      <div class="footer-links">
+        <a href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <div class="welcome-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="welcome-card">
+        <p class="welcome-label">Program Output</p>
+        <h2 class="welcome-title">Welcome!</h2>
+        <p class="welcome-message">Let’s build something great together.</p>
+        <button class="btn ghost welcome-close" type="button">Close</button>
+      </div>
+    </div>
+
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
