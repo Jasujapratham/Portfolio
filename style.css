@@ -114,10 +114,20 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: minmax(320px, 1.25fr) minmax(260px, 0.9fr);
   gap: 32px;
   align-items: center;
   padding: 60px 0 40px;
+}
+
+.hero-content {
+  max-width: 640px;
+}
+
+.hero-side {
+  display: grid;
+  gap: 20px;
+  align-content: start;
 }
 
 .eyebrow {
